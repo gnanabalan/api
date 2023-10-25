@@ -1,0 +1,135 @@
+body{
+    background-color:#0652DD
+}
+#form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+h1{
+text-align: center;
+
+}
+.button{
+    background-color:deepskyblue ;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    color: white;
+    padding: 10px;
+    margin:20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+ 
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.input-group input{
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(77, 34, 195);
+    padding: 9px;
+    font-size: 15px;
+}
+.input-group input:focus{
+    outline: 0;
+}
+.erroe{
+    color: rgb(242, 18, 18);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.input-group.success input{
+    border-color: #0cc477;
+}
+.input-group.error input{
+    border-color: rgb(206, 67, 67);
+}
+nav{
+    background-color: #a4b0be;
+    display:flex;
+    align-items:center;
+   color: #0cc477;
+   margin-top: -10px;
+   margin-left: -10px;
+   margin-right: -10px;    
+}
+.home {
+    margin-left:920px;
+}
+nav li{
+    display:inline-block;
+    margin:0 8px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size:36px;
+    font-weight: bolder;
+    margin-left: 50px;
+   
+    
+}
+
+nav a:hover{
+    color:white;
+}
+
+.menu-line{
+    height:3px;
+    width:20px;
+    background-color: rgb(139, 61, 61);
+    margin-bottom: 3px;
+}
+
+.menu{
+    cursor:pointer;
+    display:none;   
+}
+
+@media all and (max-width:640px){
+    nav{
+        flex-direction: column;
+    }
+
+    nav li{
+        display:block;
+        padding:10px 0;
+    }
+    ul{
+        text-align: center;
+        padding:0;
+        display:none;
+    }
+
+    .logo{
+        align-self:flex-start;
+        margin:10px 0px 0px 30px;
+    }
+
+    .menu{
+        display:block;
+        position:absolute;
+        right:20px;
+        top:25px;
+    }
+
+    .showmenu{
+        display:block;
+    }
+    
+}
+.fetch{
+    background-color: rgb(247, 248, 250);
+}
+.login{
+    text-decoration: none;
+}
